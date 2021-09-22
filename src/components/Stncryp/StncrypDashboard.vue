@@ -11,7 +11,10 @@ const count = ref(0)
 
 <template>
 	<div style="min-height: 100vh" class="">
-		<div class="">
+		<div class="relative">
+			<div class="absolute top-10 text-4xl right-4 rotate-45 transform">
+				🦋
+			</div>
 			<div class="dashboard-grid p-4" style="min-height: 100vh">
 				<div></div>
 				<div>
@@ -19,18 +22,23 @@ const count = ref(0)
 				</div>
 				<div class="flex flex-col h-full">
 					<div class="bg-gray-100 shadow-sm py-2 rounded-md flex-1 mb-5">
+						<div class="flex flex-col h-full items-center justify-center text-gray-300">
+							Coming... 🛠️
+						</div>
 					</div>
 					<div class="dashboard-grid rowspan-4 sticky bottom-4">
 						<div class="rounded-lg bg-gray-100 shadow-sm">
 							<div class="divide-gray-200 divide-y">
 								<div>
 									<div class="p-3 flex justify-center items-center text-sm font-semibold text-gray-500">
-										Agri Edd.
+										<a href="https://agriedd.github.io">
+											Agri Edd.
+										</a>
 									</div>
 								</div>
 								<div class="flex-grow h-full">
 									<div class="p-3 flex justify-center items-center text-gray-300 text-center text-sm">
-										offline
+										v.21.9.22
 									</div>
 								</div>
 							</div>
