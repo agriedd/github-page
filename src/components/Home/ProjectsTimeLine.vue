@@ -65,25 +65,25 @@ const last_updated = ref("9/22/2021")
  * @todo remove when on production
  * 
  */
-items.value = [
-	{
-		"title": "Website Profil & Database Jemaat",
-		"subtitle": "Website Profil & Database Jemaat GMIT Diaspora Danau Ina Oesapa Timur",
-		"url": "http://www.gmitdiaspora.org/",
-		"repo": {
-			"private": true
-		}
-	},
-	{
-		"title": "Website Profil Pengacara",
-		"subtitle": "Website Profil Pengacara Kota Kupang Bernard Anin",
-		"url": "http://www.gmitdiaspora.org/",
-		"image": "/sc_bernard_anin_official.jpg",
-		"repo": {
-			"url": "https://github.com/agriedd/website-profil-pengacara"
-		}
-	}
-]
+// items.value = [
+// 	{
+// 		"title": "Website Profil & Database Jemaat",
+// 		"subtitle": "Website Profil & Database Jemaat GMIT Diaspora Danau Ina Oesapa Timur",
+// 		"url": "http://www.gmitdiaspora.org/",
+// 		"repo": {
+// 			"private": true
+// 		}
+// 	},
+// 	{
+// 		"title": "Website Profil Pengacara",
+// 		"subtitle": "Website Profil Pengacara Kota Kupang Bernard Anin",
+// 		"url": "http://www.gmitdiaspora.org/",
+// 		"image": "/sc_bernard_anin_official.jpg",
+// 		"repo": {
+// 			"url": "https://github.com/agriedd/website-profil-pengacara"
+// 		}
+// 	}
+// ]
 
 /**
  * @todo ganti waktu di production
