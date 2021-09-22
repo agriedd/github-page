@@ -64,7 +64,11 @@ const count = ref(0)
 						</div>
 					</div>
 					<projects-time-line />
-					<ContactSide/>
+					<div>
+						<div class="bg-white mb-2 shadow-sm py-2 rounded-md md:sticky" style="top: calc(16px + 64px);">
+							<ContactSide/>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
