@@ -9,7 +9,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         index: resolve(__dirname, 'index.html'),
-        stncryp: resolve(__dirname, 'stncryp/index.html')
+        stncryp: resolve(__dirname, 'stncryp/index.html'),
+        xtnc: resolve(__dirname, 'xtnc/index.html')
       }
     }
   }

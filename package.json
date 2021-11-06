@@ -8,8 +8,11 @@
   },
   "dependencies": {
     "axios": "^0.21.4",
+    "countdown": "^2.6.0",
+    "moment": "^2.29.1",
     "tailwindcss": "^2.2.15",
-    "vue": "^3.2.6"
+    "vue": "^3.2.6",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.6.1",
